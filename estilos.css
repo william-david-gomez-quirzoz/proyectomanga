@@ -1,0 +1,75 @@
+:root{
+      --texto_menu:#04f;
+}
+
+body{
+	background: #555;
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"section section aside"
+	"footer footer footer";
+}
+/*encabezado*/
+header{
+	grid-area: header;
+	color: var(--texto_menu);
+}
+.logo{
+	position: relative;
+}
+.logo img{
+	width: 150px;
+	margin:2%;
+}
+.logo h1{
+	position: absolute;
+	left: 30%;
+	top:10%;
+	font-size: 50px;
+	font-family: "Pacifico";
+}
+header nav{
+    list-style: none;
+
+}
+header nav ul{
+	float: right;
+	margin-right:20px ;
+}
+header nav ul li{
+display: inline-block;
+}
+header nav ul li a{
+	padding: 20px;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+header nav ul li a:link{
+     color: var(--texto_menu) ;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+header nav ul input{
+	padding: 5px;
+	background: var(--texto_menu);
+	border: 2px solid #b50;
+}
+header nav ul input::placeholder{
+	color: #000;
+}
+/*recomendaciones*/
+section{
+	grid-area: section;
+	background: #d40;
+}
+aside{
+	grid-area: aside;
+	background: #d20;
+}
+footer{
+	grid-area: footer;
+	background: #d00;
+}
