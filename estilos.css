@@ -231,7 +231,7 @@ textarea{
 	flex-wrap: wrap;
 	width: 100%;
 	height: 45%;
-    background: #777;
+	border-bottom: 2px solid#093;
 }
 .zona_comentarios .comentario_individual div{
 	width: 70px;
@@ -245,6 +245,30 @@ textarea{
 .zona_comentarios .comentario_individual p{
 	width: 80%;
 	font-size: 14px;
+}
+ /*----------------------------------------------------*/
+/*---------------------lectura-------------------------*/
+/*----------------------------------------------------*/
+.selector{
+	width: 100%;
+	display: flex;
+	margin: 20px 0;
+}
+.selector_capitulo{
+  margin-left: 30px; 
+}
+.selector_pagina{
+  flex-basis: 70%;
+  text-align: center;
+}
+.manga{
+    width: 70%;
+    height: 700px;
+    margin: 20px auto;
+}
+.manga img{
+	width: 100%;
+	height: 100%;
 }
 /*-----------------------footer-----------------------*/
 footer{
