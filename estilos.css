@@ -9,6 +9,9 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
+div{
+		box-sizing: border-box;
+}
 /*------------------encabezado---------------*/
 header{
 	color: var(--texto);
@@ -159,6 +162,90 @@ aside img{
  .pagina_categoria .numero_pagina button{
  	margin-right: -5px;
  }
+ /*----------------------------------------------------*/
+/*--------------------Informacion----------------------*/
+/*----------------------------------------------------*/
+.contenedor_info{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+    background: #093
+}
+.contenedor_info .portada{
+   width: 150px;
+   height: 200px;
+   padding: 20px;
+}
+.contenedor_info .portada img{
+	width: 100%;
+	height: 100%;
+}
+.contenedor_info .sinopsis{
+	width: 70%;
+	padding: 0 20px;
+}
+/*capitulos*/
+.contenedor_capitulos{
+	margin:20px 10px;
+	background: #ccc;
+	flex-basis: 90%;
+	height: 250px;
+	border:2px solid#5b3;
+	overflow: auto;
+}
+.contenedor_capitulos div{
+	background: #000;
+	color: #fff;
+	border-bottom: 2px solid#5b3 ;
+}
+.contenedor_capitulos div p{
+	display: inline-block;
+}
+.contenedor_capitulos .episodio{
+	margin-left: 20px;
+}
+.lectura,.visto{
+	float: right;
+	margin-right: 30px;
+}
+/* tu comentario*/
+form{
+	margin: 20px 10px;
+}
+textarea{
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 70px;
+	max-height: 70px;
+}
+/*zona de comentarios*/
+.zona_comentarios{
+	background: #fff;
+	width: 90%;
+	height: 200px;
+	margin: 0 0 20px 10px;
+	overflow: auto;
+}
+.zona_comentarios .comentario_individual{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 45%;
+    background: #777;
+}
+.zona_comentarios .comentario_individual div{
+	width: 70px;
+	height: 75px;
+    padding: 10px;
+}
+.zona_comentarios .comentario_individual div img{
+	width: 100%;
+	height:100%;
+}
+.zona_comentarios .comentario_individual p{
+	width: 80%;
+	font-size: 14px;
+}
 /*-----------------------footer-----------------------*/
 footer{
 	padding: 5px 10px;
