@@ -1,0 +1,20 @@
+{ "manga":[{"imagen":"imagenes/inicio.jpg",
+	        "informacion":"Este fue mi primer boceto jejeje",
+	        "categorias":["Aventura","Accion","Gundam"],
+	        "titulo":"Boceto"
+          },
+          {"imagen":"imagenes/mujer.jpg",
+	        "informacion":"esta es una imagen de referencia",
+	        "categorias":["Seinen","Terror","Misterip"],
+	        "titulo":"Cuerpo femenino"
+          },
+          {"imagen":"imagenes/hada.jpg",
+	        "informacion":"Este es un hada malvada",
+	        "categorias":["Terror","Mision","Shoujo"],
+	        "titulo":"Hada malvada"
+          },
+          {"imagen":"imagenes/espacio.png",
+	        "informacion":"Me gusta este dibujo",
+	        "categorias":["Aventura","Accion","Gundam","Shounen"],
+	        "titulo":"Espacio"
+      }]}

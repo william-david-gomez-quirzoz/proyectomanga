@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Informacion</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="estilos.css">
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@200&family=Pacifico&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<!-- 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@200&family=Pacifico&family=Roboto:wght@500&display=swap" rel="stylesheet"> -->
 	<link rel="stylesheet" href="css/all.min.css"></head>
 <body>
 	<header>
@@ -28,10 +29,9 @@
     
     <!-- informacion del manga -->
     <div class="contenedor_info">
-    	 <div class="portada">
-    	 	<img src="imagenes/espacio.png" alt="" width="200px">
+    	 <div class="portada" id="info_imagen">
     	 </div>
-    	 <div class="sinopsis">
+    	 <div class="sinopsis" id="sinopsis">
     	 	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laboriosam laudantium itaque quam nulla sit aliquid aut repellendus modi. Temporibus sapiente facere enim neque, possimus dicta suscipit numquam minus laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia rerum obcaecati dolorem est, consequuntur modi recusandae, exercitationem consequatur soluta sed iste quas corporis et distinctio nam! Animi, magnam, culpa.</p>
     	 </div>
     	 <div class="contenedor_categoria">
@@ -49,28 +49,31 @@
 
     <div class="contenedor_capitulos">
     	<div>
-    		<p class="episodio">01</p><p class="lectura">0</p><p class="visto">></p>
+    		<p class="episodio">01</p>
+    		<div>
+    			<p class="lectura">></p><p class="visto">0</p>
+    		</div>
     	</div>
     	<div>
-    		<p class="episodio">02</p><p class="lectura">0</p><p class="visto">></p>
-    	</div>
-    	<div>
-    		<p class="episodio">03</p><p class="lectura">0</p><p class="visto">></p>
-    	</div>
-    	<div>
-    		<p class="episodio">04</p><p class="lectura">0</p><p class="visto">></p>
-    	</div>
-    	<div>
-    		<p class="episodio">05</p><p class="lectura">0</p><p class="visto">></p>
-    	</div>
-    	<div>
-    		<p class="episodio">06</p><p class="lectura">0</p><p class="visto">></p>
-    	</div>
-    	<div>
-    		<p class="episodio">07</p><p class="lectura">0</p><p class="visto">></p>
-    	</div>
-    	<div>
-    		<p class="episodio">08</p><p class="lectura">0</p><p class="visto">></p>
+    		<p class="episodio">02</p>
+    		<div>
+    			<p class="lectura">></p><p class="visto">0</p>
+    		</div>
+    	</div><div>
+    		<p class="episodio">03</p>
+    		<div>
+    			<p class="lectura">></p><p class="visto">0</p>
+    		</div>
+    	</div><div>
+    		<p class="episodio">04</p>
+    		<div>
+    			<p class="lectura">></p><p class="visto">0</p>
+    		</div>
+    	</div><div>
+    		<p class="episodio">05</p>
+    		<div>
+    			<p class="lectura">></p><p class="visto">0</p>
+    		</div>
     	</div>
     </div>
 
@@ -112,6 +115,6 @@
 		<footer>
 		<p>Desarrolador por Wolf 2021-01 contacto:david1777@gmail.com tel:0416-3702607</p>
 	</footer>
-	<script src="index.js"></script>
+	<script src="cambios.js"></script>
 </body>
 </html>
