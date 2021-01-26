@@ -15,14 +15,11 @@
 	<?php
 	include "header.php"
 	?> <!--FIN DEL MENU DE LA PAGINA-->
-    
-    <!-- INICIO DE LA SECCION DE RECOMENDACIONES -->
-	<section>
-		 <?php
-        include "indexadd.php";
-          ?>
-	</section><!--FIN DE LA SECCION DE RECOMENDACIONES-->
-	 <!-- publicidad -->
+
+	<?php
+       include "infoadd.php";
+	?>
+		 <!-- publicidad -->
 	 <aside>
 		 <img src="imagenes/espacio.png" alt="">
 	 </aside><!--FIN DE LA PUBLICIDAD-->

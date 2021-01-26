@@ -13,11 +13,16 @@ $consulta="select Titulo from informacion";
 $respuesta=mysqli_query($conexion,$consulta);
 echo "<div class='contenedor_recomendaciones' id='recomendacion'>";
 while($fila=mysqli_fetch_array($respuesta)){
-	echo "<div><a href='info.html'>
-	           <img src='' alt=''>
-			   <p>$fila[Titulo]</p>
-			   </a>
+	echo "<div> 
+	         <form action='info.php' method='post'>
+	         <button type='submit' name='submit'> 
+	         <img src='imagenes/espacio.png'alt='' name='nombre'>
+	         <input type='text' name='parrafo' value='$fila[Titulo]' readonly='readonly'>
+			 </button>		   
+			</form>
 		  </div>";
 }
  echo "</div>";
+   
+   mysqli_close($conexion);
 ?>
